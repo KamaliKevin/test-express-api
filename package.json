@@ -8,12 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KamaliKevin/test-express-api.git"
+    "url": "https://github.com/KamaliKevin/test-express-api.git"
   },
   "author": "KamaliKevin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KamaliKevin/test-express-api/issues"
-  },
-  "homepage": "https://github.com/KamaliKevin/test-express-api#readme"
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
 }
